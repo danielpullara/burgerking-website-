@@ -20,6 +20,11 @@ nav {
     font-size: 30px;
 }
 
+.nav-item:hover {
+    transform: scale(1.2);
+    transition: transform .5s ease;
+}
+
 .main-pic {
     width: 99%;
     /* height: 400px; */
