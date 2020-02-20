@@ -111,7 +111,8 @@ footer {
 
 nav {
     background-color: hsla(71, 100%, 10%, 0.87);
-    line-height: 80px;
+    line-height: 475%;
+    line-width: 100%;
     display: flex;
     align-items: center;
     border: 5px solid white;
@@ -132,7 +133,7 @@ nav {
 }
 
 .nav-item:hover {
-    transform: scale(1.2);
+    transform: scale(1.05);
     transition: transform .5s ease;
 }
 
