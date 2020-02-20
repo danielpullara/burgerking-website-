@@ -7,7 +7,7 @@
 .Center {
     position: relative;
     width: 100%;
-    max-width: 400px;
+    max-width: auto;
     line-height: 1.0;
     text-align: center;
     padding: 8px;
@@ -17,11 +17,13 @@
 
 .Center:hover .overlay {
     opacity: .2 !important;
+    border: 5px solid white;
+    border-radius: 15px;
 }
 
 .img {
-    width: 110%;
-    height: auto;
+    width: auto;
+    height: 250px;
     object-fit: cover;
     border: 5px solid white;
     border-radius: 15px;
@@ -30,21 +32,38 @@
 
 .overlay {
     position: absolute;
-    top: 12px;
-    bottom: 0px;
-    left: 59px;
-    right: 0;
-    height: 45.5%;
-    width: 81%;
+    top: 9px;
+    bottom: auto;
+    left: auto;
+    right: auto;
+    height: 51%;
+    width: 250px;
     opacity: 0;
     transition: .3s ease;
-    background-color: red;
-    border: 5px solid;
+    background-color: black;
+}
+
+.overlay2 {
+    position: absolute;
+    top: 9px;
+    bottom: auto;
+    left: auto;
+    right: auto;
+    height: 49%;
+    width: 250px;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: black;
+}
+
+.Center:hover .overlay2 {
+    opacity: .2 !important;
+    border: 5px solid white;
     border-radius: 15px;
 }
 
 .menu-area {
-    padding: 90px;
+    padding: 40px;
 }
 
 .link {
