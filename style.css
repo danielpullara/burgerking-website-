@@ -84,7 +84,7 @@ footer {
     justify-content: space-around;
     background-color: hsla(71, 100%, 10%, 0.87);
     color: white;
-    padding: 20px;
+    padding: 10%px;
     position: relative;
     /* bottom:0; */
     width: auto;
@@ -96,12 +96,16 @@ footer {
 .copyright {
     font-size: large;
     float: left;
-    padding-left: 50px;
-    font-size: 18px;
+    padding-left: 40px;
+    font-size: 100%;
 }
 
 .link {
     color: white;
     background-color: transparent;
     text-decoration: none;
+}
+
+.link:hover {
+    color: orange;
 }
