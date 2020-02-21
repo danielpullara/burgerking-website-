@@ -16,14 +16,14 @@
 }
 
 .Center:hover .overlay {
-    opacity: .2 !important;
-    border: 5px solid white;
+    opacity: .6 !important;
+    border: 5px solid black;
     border-radius: 15px;
 }
 
 .img {
-    width: auto;
-    height: 250px;
+    width: 100%;
+    height: auto;
     object-fit: cover;
     border: 5px solid white;
     border-radius: 15px;
@@ -32,12 +32,12 @@
 
 .overlay {
     position: absolute;
-    top: 9px;
+    top: 10px;
     bottom: auto;
     left: auto;
-    right: auto;
-    height: 51%;
-    width: 250px;
+    right: 0px;
+    height: 35%;
+    width: 74%;
     opacity: 0;
     transition: .3s ease;
     background-color: black;
@@ -45,19 +45,19 @@
 
 .overlay2 {
     position: absolute;
-    top: 9px;
+    top: 10px;
     bottom: auto;
     left: auto;
-    right: auto;
-    height: 49%;
-    width: 250px;
+    right: 0px;
+    height: 35%;
+    width: 74%;
     opacity: 0;
     transition: .3s ease;
     background-color: black;
 }
 
 .Center:hover .overlay2 {
-    opacity: .2 !important;
+    opacity: .4 !important;
     border: 5px solid white;
     border-radius: 15px;
 }
@@ -72,9 +72,13 @@
     text-decoration: none;
 }
 
+.link:hover {
+    color: orange;
+}
+
 .button {
-    height: 41px;
-    font-size: 17px;
+    height: auto;
+    font-size: 100%;
     background-color: hsla(71, 100%, 10%, 0.87);
     font-weight: bold;
     border: none;
@@ -94,25 +98,29 @@ footer {
     justify-content: space-around;
     background-color: hsla(71, 100%, 10%, 0.87);
     color: white;
-    padding: 20px;
+    padding: 1%;
     position: relative;
     /* bottom:0; */
     border: 5px solid white !important;
-    border-radius: 10px;
+    border-radius: 15px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .copyright {
-    font-size: large;
+    float: right;
+    padding-left: 50px;
+    font-size: 100%;
+}
+
+.copyright2 {
     float: left;
     padding-left: 50px;
-    font-size: 18px;
+    font-size: 100%;
 }
 
 nav {
     background-color: hsla(71, 100%, 10%, 0.87);
     line-height: 475%;
-    line-width: 100%;
     display: flex;
     align-items: center;
     border: 5px solid white;
@@ -167,7 +175,6 @@ nav {
 .Chatbox-right {
     padding-right: 24% !important;
     float: right;
-    justify-content: space-around;
     padding: 15px;
 }
 
