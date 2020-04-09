@@ -1,187 +1,145 @@
-        .row {
-            display: flex;
-        }
-        
-        .Center {
-            position: relative;
-            width: 20%;
-            height: 50%;
-            line-height: 100%;
-            text-align: center;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            padding: 1.5%;
-            object-fit: contain;
-        }
-        
-        .img {
-            width: 100%;
-            border: 5px solid white;
-            border-radius: 15px;
-        }
-        
-        .Center:hover .overlay {
-            opacity: .5 !important;
-            border: 5px solid black;
-            border-radius: 15px;
-        }
-        
-        .overlay {
-            position: absolute;
-            top: 16px;
-            bottom: 0px;
-            left: 17px;
-            right: 0px;
-            height: 82px;
-            width: 82%;
-            opacity: 0;
-            transition: .3s ease;
-            background-color: black;
-        }
-        
-        .overlay2 {
-            position: absolute;
-            top: 10px;
-            bottom: auto;
-            left: auto;
-            right: 0px;
-            height: 35%;
-            width: 74%;
-            opacity: 0;
-            transition: .3s ease;
-            background-color: black;
-        }
-        
-        .Center:hover .overlay2 {
-            opacity: .4 !important;
-            border: 5px solid white;
-            border-radius: 15px;
-        }
-        
-        .menu-area {
-            padding: 40px;
-        }
-        
-        .link {
-            color: white;
-            background-color: transparent;
-            text-decoration: none;
-        }
-        
-        .link:hover {
-            color: orange;
-        }
-        
-        .button {
-            height: auto;
-            font-size: 100%;
-            background-color: hsla(71, 100%, 10%, 0.87);
-            font-weight: bold;
-            border: none;
-            border-radius: 15px;
-            justify-content: center;
-            color: white;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-        }
-        
-        Button:hover {
-            background-color: orange;
-            color: hsla(71, 100%, 10%, 0.87);
-        }
-        
-        footer {
-            display: flex;
-            justify-content: space-around;
-            background-color: hsla(71, 100%, 10%, 0.87);
-            color: white;
-            padding: 1%;
-            position: relative;
-            /* bottom:0; */
-            border: 5px solid white !important;
-            border-radius: 15px;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            height: 100%;
-            width: auto;
-        }
-        
-        .copyright {
-            float: right;
-            padding-left: 50px;
-            font-size: 100%;
-        }
-        
-        .copyright2 {
-            float: left;
-            padding-left: 50px;
-            font-size: 100%;
-        }
-        
-        nav {
-            background-color: hsla(71, 100%, 10%, 0.87);
-            line-height: 475%;
-            display: flex;
-            align-items: center;
-            border: 5px solid white;
-            border-radius: 15px;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-        }
-        
-        .logo {
-            width: px;
-            margin-left: 20px;
-        }
-        
-        .nav-item {
-            margin-left: 20px;
-            text-decoration: none;
-            color: white;
-            font-size: 30px;
-        }
-        
-        .nav-item:hover {
-            transform: scale(1.05);
-            transition: transform .5s ease;
-        }
-        
-        .our-location {
-            font-size: 100%;
-            line-height: 1.6;
-            letter-spacing: 12px;
-            color: white;
-            text-align: center;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        }
-        
-        .chat-withus {
-            font-size: 100%;
-            line-height: 1.6;
-            letter-spacing: 12px;
-            color: white;
-            text-align: center;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        }
-        
-        .map-left {
-            float: left;
-            width: 100%;
-        }
-        
-        .Chatbox-right {
-            float: right;
-            width: 100%;
-        }
-        
-        .info {
-            display: flex;
-            justify-content: space-around;
-            background-color: hsla(71, 100%, 10%, 0.87);
-            border: 5px solid white;
-            border-radius: 20px;
-            height: auto;
-            width: 100%;
-        }
-        
-        .map {
-            border: 8px solid black !important;
-            border-radius: 5px;
-            font: bold;
-        }
+.row {
+    display: flex;
+}
+
+.Center {
+    position: relative;
+    width: 20%;
+    height: 50%;
+    line-height: 100%;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 1.5%;
+    object-fit: contain;
+}
+
+.photo {
+    width: 100%;
+    border: 5px solid white;
+    border-radius: 15px;
+}
+
+.menu-area {
+    padding: 40px;
+    justify-content: space-between;
+}
+
+.link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: orange;
+}
+
+.button {
+    height: auto;
+    font-size: 100%;
+    background-color: hsla(71, 100%, 10%, 0.87);
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+    justify-content: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+Button:hover {
+    background-color: orange;
+    color: hsla(71, 100%, 10%, 0.87);
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: hsla(71, 100%, 10%, 0.87);
+    color: white;
+    padding: 1%;
+    position: relative;
+    /* bottom:0; */
+    border: 5px solid white !important;
+    border-radius: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 100%;
+    width: auto;
+}
+
+.copyright {
+    font-size: large;
+    float: left;
+    padding-left: 40px;
+    font-size: 100%;
+}
+
+nav {
+    background-color: hsla(71, 100%, 10%, 0.87);
+    line-height: 475%;
+    display: flex;
+    align-items: center;
+    border: 5px solid white;
+    border-radius: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.logo {
+    width: px;
+    margin-left: 20px;
+}
+
+.nav-item {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+.nav-item:hover {
+    transform: scale(1.05);
+    transition: transform .5s ease;
+}
+
+.our-location {
+    font-size: 100%;
+    line-height: 1.6;
+    letter-spacing: 12px;
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.chat-withus {
+    font-size: 100%;
+    line-height: 1.6;
+    letter-spacing: 12px;
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.map-left {
+    float: left;
+    width: 100%;
+}
+
+.Chatbox-right {
+    float: right;
+    width: 100%;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    background-color: hsla(71, 100%, 10%, 0.87);
+    border: 5px solid white;
+    border-radius: 20px;
+    height: auto;
+    width: 100%;
+}
+
+.map {
+    border: 8px solid black !important;
+    border-radius: 5px;
+    font: bold;
+}
